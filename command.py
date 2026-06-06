@@ -174,7 +174,8 @@ ________________________________________________________________________________
             pesan_node = pesan_node.decode()
             if pesan_node == 'Siap_laksanakan!':
                 print('''
-    (^o^) Node says : Perintah bakal dieksekusi dalam 10 detik''')
+    (^o^) Node says : Perintah bakal dieksekusi dalam 10 detik
+___________________________________________________________________________________________''')
     except socket.timeout:
         print('''
     Waktu menunggu respon telah habis
